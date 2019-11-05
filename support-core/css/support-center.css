@@ -1,0 +1,70 @@
+.wgs-button-spinner:before {
+    font: normal 20px/.5 dashicons;
+    speak: none;
+    display: inline-block;
+    padding: 0;
+    top: 8px;
+    left: -4px;
+    position: relative;
+    vertical-align: top;
+    content: "\f463";
+}
+
+.wgs-button-spinner.loading:before {
+    -webkit-animation: rotation 1s infinite linear;
+    animation: rotation 1s infinite linear
+}
+
+.wgs-button-spinner.success:before {
+    content: "\f147";
+    color: #46b450
+}
+
+/* Remote Access */
+#form-field-wgs_login_link label {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+#form-field-wgs_login_link #wgs_login_link {
+	display: inline-block;
+    margin-right: 15px;
+	width: 750px;
+}
+
+#form-field-wgs_login_link .wgs-copy-login-link-btn,
+#form-field-wgs_login_link .wgs-regenerate-login-link-btn {
+	display: inline-block;
+    margin-right: 15px;
+}
+
+/* Troubleshoot Mode */
+.wgs_troubleshoot_mode_theme_plugin_wrap {
+    display: none;
+}
+
+#form-field-wgs_troubleshoot_mode_themes,
+#form-field-wgs_troubleshoot_mode_plugins {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#form-field-wgs_troubleshoot_mode_themes label,
+#form-field-wgs_troubleshoot_mode_plugins label {
+    width: 33.33%;
+}
+
+
+/* Debug Log */
+.wgs_debug_log_preview textarea {
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 25px;
+}
+
+
+/* Hide div after all css */
+#form-field-wgs_login_link {
+    display: none;
+}

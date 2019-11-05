@@ -1,0 +1,529 @@
+    html {
+        background: #f1f1f1;
+        margin: 0 20px;
+    }
+
+    body {
+        /* background: #fff; */
+        color: #444;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        margin: 140px auto 25px;
+        padding: 20px 20px 10px 20px;
+        max-width: 700px;
+        /* -webkit-font-smoothing: subpixel-antialiased; */
+        /* box-shadow: 0 1px 3px rgba(0,0,0,0.13); */
+    }
+
+    a {
+        color: #0073aa;
+    }
+
+    a:hover,
+    a:active {
+        color: #00a0d2;
+    }
+
+    a:focus {
+        color: #124964;
+        box-shadow:
+            0 0 0 1px #5b9dd9,
+            0 0 2px 1px rgba(30, 140, 190, .8);
+    }
+
+    .ie8 a:focus {
+        outline: #5b9dd9 solid 1px;
+    }
+
+    h1, h2 {
+        clear: both;
+        color: #666;
+        font-size: 24px;
+        padding: 0;
+        padding-bottom: 7px;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p, li, dd, dt {
+        padding-bottom: 2px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    code, .code {
+        font-family: Consolas, Monaco, monospace;
+    }
+
+    ul, ol, dl {
+        padding: 5px 5px 5px 22px;
+    }
+
+    a img {
+        border:0
+    }
+    abbr {
+        border: 0;
+        font-variant: normal;
+    }
+
+    fieldset {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    label {
+        cursor: pointer;
+    }
+
+    #logo {
+        margin: 6px 0 14px 0;
+        padding: 0 0 7px 0;
+        border-bottom: none;
+        text-align:center
+    }
+    #logo a {
+        background-image: url(../images/w-logo-blue.png?ver=20131202);
+        background-image: none, url(../images/wordpress-logo.svg?ver=20131107);
+        background-size: 84px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        color: #444; /* same as login.css */
+        height: 84px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin: -130px auto 25px;
+        padding: 0;
+        text-decoration: none;
+        width: 84px;
+        text-indent: -9999px;
+        outline: none;
+        overflow: hidden;
+        display: block;
+    }
+
+    #logo a:focus {
+        box-shadow: none;
+    }
+
+    .step {
+        margin: 20px 0 15px;
+    }
+    .step, th {
+        text-align: left;
+        padding: 0;
+    }
+    body {
+        margin: 100px auto 100px auto;
+        box-shadow: none;
+        background: #f1f1f1;
+        padding: 0;
+        max-width: 800px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #wgs-logo {
+        border: 0;
+        margin: 0 0 24px;
+        padding: 0;
+        text-align: center
+    }
+
+    #wgs-logo img {
+        max-width: 50%;
+    }
+
+    /* Wizard Steps */
+    .wgs-security-steps {
+        padding: 0 0 24px;
+        margin: 0;
+        list-style: none;
+        overflow: hidden;
+        color: #ccc;
+        width: 100%;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex
+    }
+
+    .wgs-security-steps li {
+        width: 50%;
+        float: left;
+        padding: 0 0 .8em;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        border-bottom: 4px solid #ccc;
+        line-height: 1.4em
+    }
+
+    .wgs-security-steps li:before {
+        content: "";
+        border: 4px solid #ccc;
+        border-radius: 100%;
+        width: 4px;
+        height: 4px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -6px;
+        margin-bottom: -8px;
+        background: #fff
+    }
+
+    .wgs-security-steps li.active {
+        border-color: #0085ba;
+        color: #0085ba
+    }
+
+    .wgs-security-steps li.active:before {
+        border-color: #0085ba
+    }
+
+    .wgs-security-steps li.done {
+        border-color: #0085ba;
+        color: #0085ba
+    }
+
+    .wgs-security-steps li.done:before {
+        border-color: #0085ba;
+        background: #0085ba
+    }
+
+    .wgs-security-content a {
+        color: #0085ba
+    }
+
+    .wgs-security-content a:focus,
+    .wgs-security-content a:hover {
+        color: #111
+    }
+
+    /* Wizard Content */
+    .wgs-security-content {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+        padding: 24px 24px 0;
+        background: #fff;
+        overflow: hidden;
+        zoom: 1
+    }
+
+    .wgs-security-content h1,
+    .wgs-security-content h2,
+    .wgs-security-content h3,
+    .wgs-security-content table {
+        margin: 0 0 24px;
+        border: 0;
+        padding: 0;
+        color: #666;
+        clear: none
+    }
+
+    .wgs-security-content p {
+        margin: 0 0 24px
+    }
+
+    .wgs-security-content p,
+    .wgs-security-content table {
+        font-size: 1em;
+        line-height: 1.75em;
+        color: #666
+    }
+
+    .wgs-security-content .cartflows-table {
+        width: 100%;
+    }
+
+    .wgs-security-content .form-table th {
+        width: 40%;
+        vertical-align: top;
+        font-weight: 400
+    }
+
+    .wgs-security-content .form-table td {
+        vertical-align: top
+    }
+
+    .wgs-security-content .form-table td input,
+    .wgs-security-content .form-table td select {
+        box-sizing: border-box;
+        color: inherit;
+    }
+
+    .wgs-security-content .form-table td input:not([type='checkbox']),
+    .wgs-security-content .form-table td select {
+        width: 50%;
+    }
+
+    .wgs-security-content .form-table td .description {
+        line-height: 1.5em;
+        display: block;
+        margin-top: .25em;
+        color: #999;
+        font-style: italic
+    }
+
+    .wgs-security-content .form-table td .input-checkbox,
+    .wgs-security-content .form-table td .input-radio {
+        width: auto;
+        box-sizing: inherit;
+        padding: inherit;
+        margin: 0 .5em 0 0;
+        box-shadow: none
+    }
+
+    /* Update icon. */
+    .updating-message:before {
+        margin-right: 5px;
+        content: "\f463";
+        display: inline-block;
+        font-size: 20px;
+        line-height: 1;
+        font-family: dashicons;
+        text-decoration: inherit;
+        font-weight: normal;
+        font-style: normal;
+        vertical-align: text-bottom;
+        text-align: center;
+        transition: color .1s ease-in 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Spins the update icon. */
+    .updating-message:before {
+        -webkit-animation: rotation 2s infinite linear;
+        animation: rotation 2s infinite linear;
+    }
+
+    @-webkit-keyframes rotation {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(-359deg);
+            transform: rotate(-359deg);
+        }
+    }
+
+    @keyframes rotation {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(-359deg);
+            transform: rotate(-359deg);
+        }
+    }
+
+    /* Content Bottom Buttons */
+    .wgs-security-actions {
+        display: flex;
+        margin-bottom: 1.5em;
+    }
+    .wgs-security-setup .wgs-security-actions {
+        justify-content: space-between;
+    }
+    .wgs-security-setup .wgs-security-actions .button {
+        font-size: 1em;
+        padding: .5em 1em;
+        line-height: 1em;
+        margin-right: .5em;
+        margin-bottom: 2px;
+        height: auto;
+        border-radius: 4px
+    }
+
+    .wgs-security-setup .wgs-security-actions .skip-button {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .wgs-security-setup .wgs-security-actions .button.button-primary {
+        opacity: 1;
+        height: auto;
+        line-height: 2;
+        padding: 0 1.2em;
+    }
+
+    /* Ready Page */
+    .wgs-security-setup-content .twitter-share-button {
+        float: right
+    }
+
+    /**
+     * Site Identity
+     */
+    .wgs-security-content select,
+    .wgs-security-content input {
+        border: 1px solid #f1f1f1;
+        padding: 0.5em;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    .wp-picker-active .wp-picker-holder {
+        position: absolute;
+        z-index: 9;
+    }
+
+    .wgs-security-next-steps .button-hero:last-child {
+        margin-bottom: 0em;
+    }
+    .wgs-security-next-steps .button-hero {
+        margin-bottom: 1em;
+    }
+
+    .wgs-security-next-steps {
+        border: 1px solid #eee;
+        border-radius: 4px;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    .wgs-security-next-steps .wgs-security-next-step-item:first-child {
+        border-top: 0;
+    }
+    .wgs-security-next-steps .wgs-security-next-step-item {
+        display: -webkit-box;
+        display: flex;
+        border-top: 1px solid #eee;
+    }
+    .wgs-security-next-steps li {
+        padding: 0;
+    }
+    .wgs-security-next-steps .wgs-security-next-step-description {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        margin: 1.5em;
+    }
+    .wgs-security-next-steps .wgs-security-next-step-action {
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .wgs-security-next-steps p.next-step-heading {
+        margin: 0;
+        font-size: .95em;
+        font-weight: 400;
+        font-variant: all-petite-caps;
+    }
+    .wc-setup-content p {
+        margin: 20px 0;
+        font-size: 1em;
+        line-height: 1.75em;
+        color: #666;
+    }
+    .wgs-security-next-steps h3.next-step-description {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .wc-setup-content h1,
+    .wc-setup-content h2,
+    .wc-setup-content h3,
+    .wc-setup-content table {
+        margin: 0 0 20px;
+        border: 0;
+        padding: 0;
+        color: #666;
+        clear: none;
+        font-weight: 500;
+    }
+    .wgs-security-next-steps p.next-step-extra-info {
+        margin: 0;
+    }
+    .wc-setup-content p:last-child {
+        margin-bottom: 0;
+    }
+    .wc-setup-content p {
+        margin: 20px 0;
+        font-size: 1em;
+        line-height: 1.75em;
+        color: #666;
+    }
+    .wgs-security-next-steps .wgs-security-next-step-action .button {
+        margin: 1em 1.5em;
+    }
+    .wgs-security-content .wc-setup-actions {
+        overflow: hidden;
+        margin: 20px 0 0;
+        position: relative;
+    }
+
+    /**
+     * Step: Last
+     */
+    .wgs-security-next-steps-last ul {
+        padding: 0;
+    }
+    .wgs-security-next-steps-last li i {
+        padding-right: 10px;
+    }
+    .wgs-security-next-steps-last li {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .close-button-wrapper {
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    .close-button-wrapper a.button-close .dashicons {
+        vertical-align: middle;
+        font-size: 1.3em;
+        line-height: .9;
+        width: 1em;
+        height: 1em;
+    }
+
+    .close-button-wrapper .button {
+        font-size: 1em;
+        padding: 5px 15px;
+        height: auto;
+        background: #fff;
+    }
+
+    /* Text meant only for screen readers */
+    .screen-reader-text {
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        word-wrap: normal !important;
+    }
+
+    /* New CSS */
+    #form-field-wgs_security_plugins label {
+        display: block;
+    }
+
+    .wizard-footer-link {
+        color: #ccc;
+    }
+    
+    .wizard-footer-left {
+        float: left;
+    }
+    
+    .wizard-footer-right {
+        float: right;
+    }
